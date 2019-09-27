@@ -89,7 +89,12 @@ define([
     { type: "payssion_payment_webpay_cl", component: defaultComponent },
     { type: "payssion_payment_xl_id", component: defaultComponent },
     { type: "payssion_payment_yamoney", component: defaultComponent },
-    { type: "payssion_payment_paytm_in", component: defaultComponent }
+    { type: "payssion_payment_paytm_in", component: defaultComponent },
+    { type: "payssion_payment_bankcard_in", component: defaultComponent },
+    { type: "payssion_payment_ebanking_in", component: defaultComponent },
+    { type: "payssion_payment_upi_in", component: defaultComponent },
+    { type: "payssion_payment_dineromail_ar", component: defaultComponent },
+    { type: "payssion_payment_creditcard_br", component: defaultComponent }
   ];
   $.each(methods, function(k, method) {
     rendererList.push(method);
