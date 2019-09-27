@@ -23,4 +23,5 @@
     <include path="Payssion_Payment::pm/dragonpay_ph.xml" />
     <include path="Payssion_Payment::pm/poli_au.xml" />
     <include path="Payssion_Payment::pm/poli_nz.xml" />
+    <include path="Payssion_Payment::pm/paytm_in.xml" />
 </include>

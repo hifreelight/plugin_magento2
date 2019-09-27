@@ -875,6 +875,17 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>AM,AZ,BY,KZ,KG,MD,RU,TJ,TM,UA,UZ</specificcountry>
             </payssion_payment_yamoney>
+            <payssion_payment_paytm_in>
+                <active>0</active>
+                <title>Paytm</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Paytmin</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>IN</specificcountry>
+            </payssion_payment_paytm_in>
         </payment>
     </default>
 </config>
