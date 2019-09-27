@@ -886,6 +886,61 @@
                 <allowspecific>1</allowspecific>
                 <specificcountry>IN</specificcountry>
             </payssion_payment_paytm_in>
+            <payssion_payment_bankcard_in>
+                <active>0</active>
+                <title>Bankcard</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Bankcardin</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>IN</specificcountry>
+            </payssion_payment_bankcard_in>
+            <payssion_payment_ebanking_in>
+                <active>0</active>
+                <title>Ebanking</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Ebankingin</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>IN</specificcountry>
+            </payssion_payment_ebanking_in>
+            <payssion_payment_upi_in>
+                <active>0</active>
+                <title>UPI</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\UPIin</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>IN</specificcountry>
+            </payssion_payment_upi_in>
+            <payssion_payment_dineromail_ar>
+                <active>0</active>
+                <title>Dineromail</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Dineromailar</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>AR</specificcountry>
+            </payssion_payment_dineromail_ar>
+            <payssion_payment_creditcard_br>
+                <active>0</active>
+                <title>Creditcard</title>
+                <order_status>pending_payment</order_status>
+                <instructions></instructions>
+                <payment_action>order</payment_action>
+                <model>Payssion\Payment\Model\Paymentmethod\Creditcardbr</model>
+                <group>payssion_payment</group>
+                <allowspecific>1</allowspecific>
+                <specificcountry>BR</specificcountry>
+            </payssion_payment_creditcard_br>
         </payment>
     </default>
 </config>

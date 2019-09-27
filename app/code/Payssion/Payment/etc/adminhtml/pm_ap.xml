@@ -24,4 +24,7 @@
     <include path="Payssion_Payment::pm/poli_au.xml" />
     <include path="Payssion_Payment::pm/poli_nz.xml" />
     <include path="Payssion_Payment::pm/paytm_in.xml" />
+    <include path="Payssion_Payment::pm/bankcard_in.xml" />
+    <include path="Payssion_Payment::pm/ebanking_in.xml" />
+    <include path="Payssion_Payment::pm/upi_in.xml" />
 </include>

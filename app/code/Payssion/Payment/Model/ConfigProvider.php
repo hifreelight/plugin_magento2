@@ -97,6 +97,11 @@ class ConfigProvider implements ConfigProviderInterface
     	'payssion_payment_xl_id',
     	'payssion_payment_yamoney',
     	'payssion_payment_paytm_in',
+    	'payssion_payment_bankcard_in',
+    	'payssion_payment_ebanking_in',
+    	'payssion_payment_upi_in',
+    	'payssion_payment_dineromail_ar',
+    	'payssion_payment_creditcard_br',
     ];
 
     /**

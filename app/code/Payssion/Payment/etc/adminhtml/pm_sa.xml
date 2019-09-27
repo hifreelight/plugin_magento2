@@ -20,4 +20,7 @@
     <include path="Payssion_Payment::pm/pagofacil_ar.xml" />
     <include path="Payssion_Payment::pm/rapipago_ar.xml" />
     <include path="Payssion_Payment::pm/redpagos_uy.xml" />
+    <include path="Payssion_Payment::pm/oxxo_mx.xml" />
+    <include path="Payssion_Payment::pm/dineromail_ar.xml" />
+    <include path="Payssion_Payment::pm/creditcard_br.xml" />
 </include>

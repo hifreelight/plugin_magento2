@@ -255,5 +255,20 @@
         <method name="payssion_payment_paytm_in">
             <allow_multiple_address>0</allow_multiple_address>
         </method>
+        <method name="payssion_payment_bankcard_in">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_ebanking_in">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_upi_in">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_dineromail_ar">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
+        <method name="payssion_payment_creditcard_br">
+            <allow_multiple_address>0</allow_multiple_address>
+        </method>
     </methods>
 </payment>
